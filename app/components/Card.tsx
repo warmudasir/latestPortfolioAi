@@ -6,9 +6,10 @@ type CardProps = {
     subtitle?: string;
     description?: string;
     tags?: string[];
+    link?: string;
 };
 
-export default function Card({ title, subtitle, description, tags }: CardProps) {
+export default function Card({ title, subtitle, description, tags, link }: CardProps) {
     return (
         <article className={styles.card}>
             <div className={styles.cardHeader}>
@@ -16,6 +17,11 @@ export default function Card({ title, subtitle, description, tags }: CardProps) 
                 {subtitle && <div className={styles.cardSubtitle}>{subtitle}</div>}
             </div>
             {description && <p className={styles.cardDesc}>{description}</p>}
+            {link && (
+                <a className={styles.cardLink} href={link} target="_blank" rel="noreferrer">
+                    View on IEEE Xplore
+                </a>
+            )}
             {tags && (
                 <div className={styles.cardTags}>
                     {tags.map((t) => (

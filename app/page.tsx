@@ -21,9 +21,9 @@ export default function Home() {
           web applications with React, Next.js, and TypeScript.
         </p>
       </main>
+      <Experience />
       <Projects />
       <Patents />
-      <Experience />
     </div>
   );
 }

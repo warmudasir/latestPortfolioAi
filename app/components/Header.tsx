@@ -21,10 +21,10 @@ export default function Header() {
                 <div className={styles.brand}>MM</div>
                 <nav>
                     <ul className={styles.navList}>
-                        <li><a href="#about">about</a></li>
-                        <li><a href="#projects">projects</a></li>
-                        <li><a href="#connect">connect</a></li>
-                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#patents">Publications</a></li>
+                        <li><a href="https://www.linkedin.com/in/mudasir-m-a28570200">LinkedIn</a></li>
+                        <li><a href="/Mudasir-M-Resume.pdf" download="Mudasir-M-Resume.pdf">Resume</a></li>
                     </ul>
                 </nav>
             </div>

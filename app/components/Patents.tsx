@@ -12,12 +12,14 @@ export default function Patents() {
                     subtitle="ICCNT Paper Presentation, IIT Delhi"
                     description="Research on identifying counterfeit products through blockchain-backed authenticity verification."
                     tags={["Blockchain", "Research"]}
+                    link="https://ieeexplore.ieee.org/document/10307934"
                 />
                 <Card
-                    title="Online Doctor Recommendation and Disease Prediction Using Machine Learning"
+                    title="Web-Based Patient Health Management System with Doctor Recommendations and Medicine Alternatives Using Machine Learning"
                     subtitle="IEEE Xplore"
                     description="Machine learning research combining online doctor recommendations with disease prediction."
                     tags={["Machine Learning", "Healthcare"]}
+                    link="https://ieeexplore.ieee.org/document/10649525"
                 />
             </div>
         </section>
