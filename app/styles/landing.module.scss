@@ -38,6 +38,14 @@
     justify-content: center;
     z-index: 50;
     background: transparent;
+    transition: background 180ms ease, border-color 180ms ease, backdrop-filter 180ms ease;
+    border-bottom: 1px solid transparent;
+}
+
+.headerScrolled {
+    background: rgba(3, 3, 5, 0.78);
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(14px);
 }
 
 .header>.inner {
@@ -85,6 +93,7 @@
     margin: 0 auto;
     padding: 0 24px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -97,6 +106,7 @@
     font-weight: 800;
     letter-spacing: -0.02em;
     text-shadow: 0 6px 30px rgba(2, 6, 23, 0.6);
+    margin: 0;
 }
 
 .name span {
@@ -104,9 +114,46 @@
     color: rgba(125, 211, 252, 0.95);
 }
 
+.role {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 28px 0 0;
+    text-align: center;
+}
+
+.credential {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.summary {
+    max-width: 680px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin: 12px 0 0;
+    text-align: center;
+}
+
 @media (max-width: 720px) {
     .name {
         font-size: 3rem;
+    }
+
+    .role {
+        font-size: 1.2rem;
+    }
+
+    .credential {
+        font-size: 0.95rem;
+    }
+
+    .summary {
+        font-size: 0.95rem;
     }
 
     .header {

@@ -8,22 +8,16 @@ export default function Projects() {
             <h2 className={styles.sectionHeading}>Projects & Publications</h2>
             <div className={styles.cardsGrid}>
                 <Card
-                    title="Smart Home Vision"
-                    subtitle="Computer Vision / IoT"
-                    description="Prototype for automated scene understanding and context-aware device control."
-                    tags={["Python", "OpenCV", "Edge"]}
+                    title="Fake Product Detection Using Blockchain Technology"
+                    subtitle="08/2023"
+                    description="Built a system to detect counterfeit products by scanning a QR code and verifying authenticity against blockchain records, addressing the rise of counterfeit goods sold through digital marketing channels."
+                    tags={["Blockchain", "QR Code"]}
                 />
                 <Card
-                    title="Realtime Collaboration"
-                    subtitle="WebRTC / UX"
-                    description="Low-latency collaborative editor with presence and conflict-free merging."
-                    tags={["TypeScript", "WebRTC", "Next.js"]}
-                />
-                <Card
-                    title="DataOps Pipeline"
-                    subtitle="ETL / Automation"
-                    description="Robust data ingestion and validation pipeline with monitoring."
-                    tags={["Airflow", "SQL", "Kubernetes"]}
+                    title="Employee Productivity Detection Using Artificial Intelligence"
+                    subtitle="07/2021"
+                    description="Developed a system to measure employee productivity in an office setting using Artificial Neural Networks and Convolutional Neural Networks."
+                    tags={["Artificial Intelligence", "ANN", "CNN"]}
                 />
             </div>
         </section>

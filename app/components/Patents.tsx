@@ -8,22 +8,16 @@ export default function Patents() {
             <h2 className={styles.sectionHeading}>Patents & Publications</h2>
             <div className={styles.cardsGrid}>
                 <Card
-                    title="Adaptive Compression"
-                    subtitle="Patent Pending"
-                    description="Method for adaptive bitrate selection in constrained networks."
-                    tags={["Compression", "Networks"]}
+                    title="Identification of Fake Products Using Blockchain"
+                    subtitle="ICCNT Paper Presentation, IIT Delhi"
+                    description="Research on identifying counterfeit products through blockchain-backed authenticity verification."
+                    tags={["Blockchain", "Research"]}
                 />
                 <Card
-                    title="Gesture Recognition"
-                    subtitle="Journal Publication"
-                    description="A novel gesture recognition model optimized for low-power devices."
-                    tags={["ML", "Embedded"]}
-                />
-                <Card
-                    title="Secure Sync"
-                    subtitle="Conference Paper"
-                    description="Protocol for secure and efficient synchronization across peers."
-                    tags={["Security", "Distributed"]}
+                    title="Online Doctor Recommendation and Disease Prediction Using Machine Learning"
+                    subtitle="IEEE Xplore"
+                    description="Machine learning research combining online doctor recommendations with disease prediction."
+                    tags={["Machine Learning", "Healthcare"]}
                 />
             </div>
         </section>
